@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+
+@import "additional-styles/utility-patterns.css";
+@import "additional-styles/theme.css";
+
+@tailwind utilities;
+
+@layer utilities {
+  .rtl {
+    direction: rtl;
+  }
+  .style-scrollbar-h::-webkit-scrollbar {
+    width: 0;
+  }
+  .style-scrollbar-h::-webkit-scrollbar-thumb {
+    background: none;
+  }
+  .webkit-style-scrollbar-h::-webkit-scrollbar {
+    display: none;
+  }
+  .webkit-style-scrollbar-h::-webkit-scrollbar {
+    width: none;
+  }
+  .webkit-style-scrollbar-h::-webkit-scrollbar-thumb {
+    background: none;
+  }
+}
